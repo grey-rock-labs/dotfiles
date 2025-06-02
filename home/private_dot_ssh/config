@@ -1,0 +1,9 @@
+host *
+  ControlMaster auto
+  ControlPath ~/.ssh/controlmasters/ssh-%r@%h:%p
+
+Include "config.d/*"
+
+Host 10.*.*.*
+  StrictHostKeyChecking no
+  UserKnownHostsFile /dev/null

@@ -1,0 +1,7 @@
+{{- $isWorkComputer := promptBoolOnce . "isWorkComputer" "Is this your work computer" -}}
+
+[data]
+isWorkComputer = {{ $isWorkComputer }}
+[data.personal]
+full_name = "Todd Punderson"
+git_email = "agile.car7544@undercovermail.org"
