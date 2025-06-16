@@ -22,6 +22,7 @@ auto-update = download
 auto-update-channel = stable
 clipboard-trim-trailing-spaces = true
 shell-integration = detect
+copy-on-select = clipboard
 
 # Window settings
 window-height = 45
